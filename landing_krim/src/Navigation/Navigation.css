@@ -1,0 +1,25 @@
+.Navigation {
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -100;
+    text-align: left;
+}
+
+.Navigation-header_links {
+    padding: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.Navigation-header_links a {
+    padding-right: 20px;
+    font-size: calc(5px + 2vmin);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
