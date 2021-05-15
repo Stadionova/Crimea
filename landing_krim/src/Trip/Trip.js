@@ -1,30 +1,39 @@
 import React from 'react';
-// import mainPhoto from './mainPhoto.JPG';
-import './MainPage.css';
+import './Trip.css';
+import Navigation from '../Navigation/Navigation';
+import EachDay from '../EachDay/EachDay';
 
-function MainPage() {
+function Trip() {
     return (
-        <div className="MainPage">
-            {/* <img src={mainPhoto} className="MainPage-logo" alt="logo" /> */}
-            <header className="MainPage-header">
-                <div className="MainPage-header_links">
-                    <a>Путешествие</a>
-                    <a>Контакты</a>
-                </div>
-                <div>
-                    <p>Крым "Крымская тропа"</p>
-                    <a
-                        className="MainPage-link"
-                        href="https://reactjs.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Наш первый семейный поход
-        </a>
-                </div>
-            </header>
+        <div className="Trip">
+            <Navigation />
+            <div>
+                <p>11 дней пути от Судака до Бахчисарая.
+                <br />Затем по 2 дня в Бахчисарае, Севастополе и Симферополе.
+            </p>
+            </div>
+            <div className="Trip-day">
+                <EachDay />
+                <EachDay />
+            </div>
+            <div className="Trip-day">
+                <EachDay />
+                <EachDay />
+            </div>
+            <div className="Trip-day">
+                <EachDay />
+                <EachDay />
+            </div>
+            <div className="Trip-day">
+                <EachDay />
+                <EachDay />
+            </div>
+            <div className="Trip-day">
+                <EachDay />
+                <EachDay />
+            </div>
         </div>
     )
 }
 
-export default MainPage;
+export default Trip;

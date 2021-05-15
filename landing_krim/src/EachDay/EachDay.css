@@ -1,0 +1,8 @@
+.EachDay {
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 250px;
+    padding-right: 50px;
+    margin-right: 20px;
+}
