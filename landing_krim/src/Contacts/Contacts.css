@@ -1,0 +1,15 @@
+.contacts {
+    background-color: peru;
+    min-height: 100vh;
+}
+
+.contacts-text {
+    text-align: left;
+    font-size: 25pt;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.contacts-text p {
+    margin: 0;
+}

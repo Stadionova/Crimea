@@ -13,24 +13,24 @@ function Trip() {
             </p>
             </div>
             <div className="Trip-day">
-                <EachDay />
-                <EachDay />
+                <EachDay day='1' />
+                <EachDay day='2' />
             </div>
             <div className="Trip-day">
-                <EachDay />
-                <EachDay />
+                <EachDay day='3' />
+                <EachDay day='4' />
             </div>
             <div className="Trip-day">
-                <EachDay />
-                <EachDay />
+                <EachDay day='5' />
+                <EachDay day='6' />
             </div>
             <div className="Trip-day">
-                <EachDay />
-                <EachDay />
+                <EachDay day='7' />
+                <EachDay day='8' />
             </div>
             <div className="Trip-day">
-                <EachDay />
-                <EachDay />
+                <EachDay day='9' />
+                <EachDay day='10' />
             </div>
         </div>
     )

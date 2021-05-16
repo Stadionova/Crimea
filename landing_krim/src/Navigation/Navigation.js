@@ -1,13 +1,15 @@
 import React from 'react';
 import './Navigation.css';
+import { NavLink } from "react-router-dom";
 
-function Navigation() {
+const Navigation = () => {
     return (
         <div className="Navigation">
             <div className="Navigation-header_links">
-                <a href="#">Путешествие</a>
-                <a href="#">Снаряжение</a>
-                <a href="#">Контакты</a>
+                <NavLink to='/main' >Главная страница</NavLink>
+                <NavLink to='/trip' >Путешествие</NavLink>
+                <NavLink to='/equipment' >Снаряжение</NavLink>
+                <NavLink to='/contacts' >Контакты</NavLink>
             </div>
         </div>
     )
