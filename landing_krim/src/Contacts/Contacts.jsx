@@ -5,7 +5,7 @@ import Navigation from '../Navigation/Navigation';
 function Contacts() {
     return (
         <div className={classes.contacts}>
-            <Navigation />
+            <Navigation changeColor='black' />
             <div className={classes.text}>
                 <p>Инстаграмм</p>
                 <p>Вк</p>

@@ -1,11 +1,11 @@
 import React from 'react';
-import classes from './Navigation.module.css';
+import './Navigation.css';
 import { NavLink } from "react-router-dom";
 
-const Navigation = () => {
+const Navigation = (props) => {
     return (
-        <div className={classes.navigation}>
-            <div className={classes.headerLinks}>
+        <div className='navigation' data={props.changeColor}>
+            <div className='headerLinks'>
                 <NavLink to='/main' >Главная страница</NavLink>
                 <NavLink to='/trip' >Путешествие</NavLink>
                 <NavLink to='/equipment' >Снаряжение</NavLink>

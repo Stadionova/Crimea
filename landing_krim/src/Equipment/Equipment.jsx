@@ -5,7 +5,7 @@ import Navigation from '../Navigation/Navigation';
 function Equipment() {
     return (
         <div className={classes.equipment}>
-            <Navigation />
+            <Navigation changeColor='black' />
             <div className={classes.text}>
                 Наше снаряжение.
             </div>

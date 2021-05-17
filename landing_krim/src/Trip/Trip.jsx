@@ -6,7 +6,7 @@ import EachDay from '../EachDay/EachDay';
 const Trip = () => {
     return (
         <div className={classes.trip}>
-            <Navigation />
+            <Navigation changeColor='black' />
             <div>
                 <p>11 дней пути от Судака до Бахчисарая.
                 <br />Затем по 2 дня в Бахчисарае, Севастополе и Симферополе.
