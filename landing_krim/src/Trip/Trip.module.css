@@ -1,18 +1,17 @@
-.Trip {
+.trip {
     text-align: center;
-    /* background-image: url(backImg.JPG); */
     background-size: cover;
     position: relative;
     height: 100%;
     width: 100%;
     overflow: hidden;
-    /* z-index: -100; */
     min-height: 100vh;
     margin: 0 auto;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background-color: thistle;
 }
 
-.Trip p {
+.trip p {
     color: black;
     font-size: 25pt;
     width: 80%;
@@ -20,7 +19,7 @@
     padding: 25px;
 }
 
-.Trip-header {
+.tripHeader {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -30,13 +29,14 @@
     color: black;
 }
 
-.Trip .Navigation-header_links a {
+.trip .Navigation_header_links a {
     color: black;
 }
 
-.Trip-day {
+.day {
     display: flex;
     margin: 150px;
     margin: 20px 0 0 150px;
     margin-left: 25px;
+    text-decoration: none;
 }

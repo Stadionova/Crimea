@@ -1,15 +1,15 @@
-.equipment {
-    background-color: palevioletred;
+.contacts {
+    background-color: peru;
     min-height: 100vh;
 }
 
-.equipment-text {
+.text {
     text-align: left;
     font-size: 25pt;
     font-weight: 400;
     padding-left: 25px;
 }
 
-.equipment-text p {
+.text p {
     margin: 0;
 }

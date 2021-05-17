@@ -1,12 +1,12 @@
 import React from 'react';
-import './Equipment.css';
+import classes from './Equipment.module.css';
 import Navigation from '../Navigation/Navigation';
 
 function Equipment() {
     return (
-        <div className="equipment">
+        <div className={classes.equipment}>
             <Navigation />
-            <div className="equipment-text">
+            <div className={classes.text}>
                 Наше снаряжение.
             </div>
         </div>

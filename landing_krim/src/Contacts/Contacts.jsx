@@ -1,12 +1,12 @@
 import React from 'react';
-import './Contacts.css';
+import classes from './Contacts.module.css';
 import Navigation from '../Navigation/Navigation';
 
 function Contacts() {
     return (
-        <div className="contacts">
+        <div className={classes.contacts}>
             <Navigation />
-            <div className="contacts-text">
+            <div className={classes.text}>
                 <p>Инстаграмм</p>
                 <p>Вк</p>
             </div>

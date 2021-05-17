@@ -1,15 +1,15 @@
-.contacts {
-    background-color: peru;
+.equipment {
+    background-color: palevioletred;
     min-height: 100vh;
 }
 
-.contacts-text {
+.text {
     text-align: left;
     font-size: 25pt;
     font-weight: 400;
     padding-left: 25px;
 }
 
-.contacts-text p {
+.text p {
     margin: 0;
 }
