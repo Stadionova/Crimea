@@ -8,6 +8,7 @@ import Contacts from './Contacts/Contacts';
 function App() {
   return (
     <div className="App">
+      {/* <MainPage /> */}
       <Route path='/main' component={MainPage} />
       <Route path='/trip' component={Trip} />
       <Route path='/equipment' component={Equipment} />
