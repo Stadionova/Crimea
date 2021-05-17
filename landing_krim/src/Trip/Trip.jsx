@@ -17,20 +17,20 @@ const Trip = () => {
                 <EachDay day={2} />
             </div>
             <div className={classes.day}>
-                <EachDay day='3' />
-                <EachDay day='4' />
+                <EachDay day={3} />
+                <EachDay day={4} />
             </div>
             <div className={classes.day}>
-                <EachDay day='5' />
-                <EachDay day='6' />
+                <EachDay day={5} />
+                <EachDay day={6} />
             </div>
             <div className={classes.day}>
-                <EachDay day='7' />
-                <EachDay day='8' />
+                <EachDay day={7} />
+                <EachDay day={8} />
             </div>
             <div className={classes.day}>
-                <EachDay day='9' />
-                <EachDay day='10' />
+                <EachDay day={9} />
+                <EachDay day={10} />
             </div>
         </div>
     )

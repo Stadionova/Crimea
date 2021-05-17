@@ -6,5 +6,5 @@ a:active,
 a:hover,
 a {
   text-decoration: none;
-  color: brown;
+  /* color: brown; */
 }
