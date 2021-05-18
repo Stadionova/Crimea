@@ -52,3 +52,7 @@
 .contacts a {
     padding-right: 10px;
 }
+
+[class*="active"] {
+    text-decoration: overline !important;
+}
