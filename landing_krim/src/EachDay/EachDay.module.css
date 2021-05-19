@@ -4,6 +4,7 @@
     text-decoration: none;
     position: relative;
     width: 675px;
+    border: 2px solid transparent;
 }
 
 .eachDay a {
@@ -15,6 +16,24 @@
     height: 400px;
     width: 100%;
     object-fit: cover;
+    opacity: 0.75;
+}
+
+.addText {
+    display: none;
+}
+
+.eachDay img:hover {
+    opacity: 0.9;
+}
+
+.eachDay:hover .addText {
+    display: block;
+}
+
+.eachDay:hover {
+    opacity: 0.9;
+    border-color: darkgreen;
 }
 
 .backImage {
