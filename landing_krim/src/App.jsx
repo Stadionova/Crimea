@@ -5,6 +5,7 @@ import { Route } from "react-router-dom";
 import Equipment from './Equipment/Equipment';
 import EachDay from './EachDay/EachDay';
 import React from "react";
+import DayDescription from './DayDescription/DayDescription';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path='/trip' component={Trip} />
       <Route path='/equipment' component={Equipment} />
       <Route path='/day' component={EachDay} />
+      <Route path='/dayDesc' component={DayDescription} />
     </div>
   );
 }

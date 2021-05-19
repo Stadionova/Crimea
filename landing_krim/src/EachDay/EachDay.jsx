@@ -28,12 +28,16 @@ const backImages = {
 const EachDay = (props) => {
     return (
         <div className={classes.eachDay}>
-            <img src={backImages[props.day]} alt=''></img>
-            <div className={classes.backImage}>
-                <NavLink to={'/day/' + props.day}>
+            <NavLink
+                to={{
+                    pathname: '/dayDesc/' + props.day,
+                    aboutProps: props.desc
+                }}>
+                <img src={backImages[props.day]} alt=''></img>
+                <div className={classes.backImage}>
                     День {props.day}
-                </NavLink>
-            </div>
+                </div>
+            </NavLink>
         </div>
     )
 }
