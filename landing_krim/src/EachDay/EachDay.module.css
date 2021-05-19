@@ -3,6 +3,7 @@
     margin-right: 25px;
     text-decoration: none;
     position: relative;
+    width: 675px;
 }
 
 .eachDay a {
@@ -11,8 +12,9 @@
 
 .eachDay img {
     position: relative;
-    width: 675px;
     height: 400px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .backImage {
