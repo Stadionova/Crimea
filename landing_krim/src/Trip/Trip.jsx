@@ -28,14 +28,12 @@ const additionalBeforeHoverHideText = {
     3: 'Третий день!',
     4: 'Четвёртый день!',
     5: 'Пятый день!',
-    6: 'День маминого ностальжи, сопки кругом.',
-    7: 'Не сделала ни одного фота, телефон весь день разряжен, солнца, чтоб зарядить паурбэнки нет - девайсный детокс.',
-    8: `Лазаем по скалам, впереди вертикальный спуск вниз до посёлка, там закупка еды и первая помывка головы. 
-    Ночёвка и табун лошадей на бивуаке, покушавшихся ночью на нашу жизнь. Сделала всего 1 фото.`,
-    9: 'Не сделала ни одного фото.',
-    10: 'Попали в егерьский лес, видели целую кучу косуль, что под конец пути уже перестали им удивляться.',
-    11: `Очередной посёлок на нашем пути, мороженка и долгий путь по полям, жара, нервы сдают. 
-    Впереди ждёт Бахчисарай, бахчикэмп, душ и полноценный качественный сон.`
+    6: 'Шестой день!',
+    7: 'Седьмой день!',
+    8: 'Восьмой день!',
+    9: 'Девятый день!',
+    10: 'Десятый день!',
+    11: 'Одиннадцатый день!'
 }
 
 const Trip = () => {
@@ -49,27 +47,27 @@ const Trip = () => {
             </p>
             </div>
             <div className={classes.day}>
-                <EachDay day={1} desc={dayDescriptions[1]} addHideText={additionalBeforeHoverHideText[1]}/>
-                <EachDay day={2} desc={dayDescriptions[2]} addHideText={additionalBeforeHoverHideText[2]}/>
+                <EachDay day={1} desc={dayDescriptions[1]} addHideText={additionalBeforeHoverHideText[1]} />
+                <EachDay day={2} desc={dayDescriptions[2]} addHideText={additionalBeforeHoverHideText[2]} />
             </div>
             <div className={classes.day}>
-                <EachDay day={3} desc={dayDescriptions[3]} addHideText={additionalBeforeHoverHideText[3]}/>
-                <EachDay day={4} desc={dayDescriptions[4]} addHideText={additionalBeforeHoverHideText[4]}/>
+                <EachDay day={3} desc={dayDescriptions[3]} addHideText={additionalBeforeHoverHideText[3]} />
+                <EachDay day={4} desc={dayDescriptions[4]} addHideText={additionalBeforeHoverHideText[4]} />
             </div>
             <div className={classes.day}>
-                <EachDay day={5} desc={dayDescriptions[5]} addHideText={additionalBeforeHoverHideText[5]}/>
-                <EachDay day={6} desc={dayDescriptions[6]} addHideText={additionalBeforeHoverHideText[6]}/>
+                <EachDay day={5} desc={dayDescriptions[5]} addHideText={additionalBeforeHoverHideText[5]} />
+                <EachDay day={6} desc={dayDescriptions[6]} addHideText={additionalBeforeHoverHideText[6]} />
             </div>
             <div className={classes.day}>
-                <EachDay day={7} desc={dayDescriptions[7]} addHideText={additionalBeforeHoverHideText[7]}/>
-                <EachDay day={8} desc={dayDescriptions[8]} addHideText={additionalBeforeHoverHideText[8]}/>
+                <EachDay day={7} desc={dayDescriptions[7]} addHideText={additionalBeforeHoverHideText[7]} />
+                <EachDay day={8} desc={dayDescriptions[8]} addHideText={additionalBeforeHoverHideText[8]} />
             </div>
             <div className={classes.day}>
-                <EachDay day={9} desc={dayDescriptions[9]} addHideText={additionalBeforeHoverHideText[9]}/>
-                <EachDay day={10} desc={dayDescriptions[10]} addHideText={additionalBeforeHoverHideText[10]}/>
+                <EachDay day={9} desc={dayDescriptions[9]} addHideText={additionalBeforeHoverHideText[9]} />
+                <EachDay day={10} desc={dayDescriptions[10]} addHideText={additionalBeforeHoverHideText[10]} />
             </div>
             <div className={classes.day}>
-                <EachDay day={11} desc={dayDescriptions[11]} addHideText={additionalBeforeHoverHideText[11]}/>
+                <EachDay day={11} desc={dayDescriptions[11]} addHideText={additionalBeforeHoverHideText[11]} />
             </div>
         </div>
     )

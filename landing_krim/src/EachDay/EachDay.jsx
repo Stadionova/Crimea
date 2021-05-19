@@ -38,6 +38,7 @@ const EachDay = (props) => {
                 <img src={backImages[props.day]} alt=''></img>
                 <div className={classes.backImage}>
                     День {props.day}
+                    <p className={classes.addText}>{props.addHideText}</p>
                 </div>
             </NavLink>
         </div>

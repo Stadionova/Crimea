@@ -21,6 +21,13 @@
 
 .addText {
     display: none;
+    position: absolute;
+    color: white !important;
+    font-size: 20pt !important;
+    font-weight: 100;
+    width: 500px !important;
+    top: 240px;
+    left: 0;
 }
 
 .eachDay img:hover {
