@@ -1,3 +1,7 @@
+* {
+  font-family: system-ui;
+}
+
 .App {
   text-align: center;
 }

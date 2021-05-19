@@ -15,6 +15,7 @@ function App() {
       <Route path='/equipment' component={Equipment} />
       <Route path='/day' component={EachDay} />
       <Route path='/dayDesc' component={DayDescription} />
+      <Route path='/cities' component={DayDescription} />
     </div>
   );
 }
