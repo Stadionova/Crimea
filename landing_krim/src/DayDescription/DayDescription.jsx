@@ -9,10 +9,6 @@ function DayDescription(props) {
             <Navigation changeColor='black' />
             <div className={classes.eachDay}>
                 <img src={data.img} alt=''></img>
-                <div className={classes.backImage}>
-                    День {data.day}
-                    <p className={classes.addText}>{data.addHideText}</p>
-                </div>
                 <div className={classes.hoverLayer}></div>
             </div>
             <div>
