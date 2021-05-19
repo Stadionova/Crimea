@@ -27,8 +27,9 @@ const Trip = () => {
         <div className={classes.trip}>
             <Navigation changeColor='black' />
             <div>
-                <p>11 дней пути от Судака до Бахчисарая.
-                <br />Затем по 2 дня в Бахчисарае, Севастополе и Симферополе.
+                <p>Наш поход длился 11 дней.
+                <br />Шли мы от Судака до Бахчисарая по Крымской тропе.
+                <br />Затем сошли с тропы и провели по 2 дня в каждом из городов: Бахчисарай, Севастополь и Симферополь.
             </p>
             </div>
             <div className={classes.day}>
@@ -50,6 +51,9 @@ const Trip = () => {
             <div className={classes.day}>
                 <EachDay day={9} desc={dayDescriptions[9]} />
                 <EachDay day={10} desc={dayDescriptions[10]} />
+            </div>
+            <div className={classes.day}>
+                <EachDay day={11} desc={dayDescriptions[11]} />
             </div>
         </div>
     )

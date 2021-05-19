@@ -11,6 +11,7 @@ import image7 from './day7.jpg';
 import image8 from './day8.jpg';
 import image9 from './day9.jpg';
 import image10 from './day10.jpg';
+import image11 from './day11.jpg';
 
 const backImages = {
     '1': image1,
@@ -22,7 +23,8 @@ const backImages = {
     '7': image7,
     '8': image8,
     '9': image9,
-    '10': image10
+    '10': image10,
+    '11': image11
 }
 
 const EachDay = (props) => {
