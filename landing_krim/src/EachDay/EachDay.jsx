@@ -40,6 +40,7 @@ const EachDay = (props) => {
                     День {props.day}
                     <p className={classes.addText}>{props.addHideText}</p>
                 </div>
+                <div className={classes.hoverLayer}></div>
             </NavLink>
         </div>
     )
