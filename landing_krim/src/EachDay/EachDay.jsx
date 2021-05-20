@@ -13,6 +13,13 @@ import image9 from './day9.jpg';
 import image10 from './day10.jpg';
 import image11 from './day11.jpg';
 
+import day1DescImage1 from './photos/day1/day1_1.JPG';
+import day1DescImage2 from './photos/day1/day1_2.JPG';
+import day1DescImage3 from './photos/day1/day1_3.JPG';
+import day1DescImage4 from './photos/day1/day1_4.JPG';
+import day1DescImage5 from './photos/day1/day1_5.JPG';
+import day1DescImage6 from './photos/day1/day1_6.JPG';
+
 const backImages = {
     '1': image1,
     '2': image2,
@@ -27,6 +34,15 @@ const backImages = {
     '11': image11
 }
 
+const dayDescImages = {
+    '1': [day1DescImage1, day1DescImage2, day1DescImage3, day1DescImage4, day1DescImage5, day1DescImage6],
+    '2': day1DescImage2,
+    '3': day1DescImage3,
+    '4': day1DescImage4,
+    '5': day1DescImage5,
+    '6': day1DescImage6
+}
+
 const EachDay = (props) => {
     return (
         <div className={classes.eachDay}>
@@ -36,7 +52,8 @@ const EachDay = (props) => {
                     aboutProps: props.desc,
                     img: backImages[props.day],
                     day: props.day,
-                    addHideText: props.addHideText
+                    addHideText: props.addHideText,
+                    imagesDesc: dayDescImages[props.day]
                 }}>
                 <img src={backImages[props.day]} alt=''></img>
                 <div className={classes.backImage}>
