@@ -5,6 +5,7 @@ import dataDaysDesc from '../dataDaysDesc';
 
 function DayDescription(props) {
     const data = props && props.location && props.location;
+    const dataImages = data && data.imagesDesc;
     return (
         <div className={classes.description}>
             <Navigation changeColor='black' />
@@ -12,23 +13,23 @@ function DayDescription(props) {
                 <img src={data.img} alt=''></img>
                 <div className={classes.hoverLayer}></div>
             </div>
-            <div>
-                <p>{data.aboutProps}</p>
+            <div className={classes.shortDesc}>
+                <p>{data.desc}</p>
             </div>
-            <div>
+            <div className={classes.fullDesc}>
                 <p>{dataDaysDesc[data.day]}</p>
             </div>
             <div className={classes.photoGallery}>
                 <ul>
                     <div>
-                        <li><img src={data.imagesDesc[0]} alt=''></img></li>
-                        <li><img src={data.imagesDesc[1]} alt=''></img></li>
-                        <li><img src={data.imagesDesc[2]} alt=''></img></li>
+                        <li><img src={dataImages[0]} alt=''></img></li>
+                        <li><img src={dataImages[1]} alt=''></img></li>
+                        <li><img src={dataImages[2]} alt=''></img></li>
                     </div>
                     <div>
-                        <li><img src={data.imagesDesc[3]} alt=''></img></li>
-                        <li><img src={data.imagesDesc[4]} alt=''></img></li>
-                        <li><img src={data.imagesDesc[5]} alt=''></img></li>
+                        <li><img src={dataImages[3]} alt=''></img></li>
+                        <li><img src={dataImages[4]} alt=''></img></li>
+                        <li><img src={dataImages[5]} alt=''></img></li>
                     </div>
                 </ul>
             </div>

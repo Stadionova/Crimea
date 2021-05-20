@@ -63,7 +63,7 @@ const EachDay = (props) => {
             <NavLink
                 to={{
                     pathname: '/dayDesc/' + props.day,
-                    aboutProps: props.desc,
+                    desc: props.desc,
                     img: backImages[props.day],
                     day: props.day,
                     addHideText: props.addHideText,
