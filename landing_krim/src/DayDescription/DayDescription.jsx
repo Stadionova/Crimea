@@ -17,21 +17,27 @@ function DayDescription(props) {
                 <p>{data.desc}</p>
             </div>
             <div className={classes.fullDesc}>
-                <p>{dataDaysDesc[data.day]}</p>
+                <p>{dataDaysDesc[data.day][0]}</p>
+                <p>{dataDaysDesc[data.day][1]}</p>
+                <p>{dataDaysDesc[data.day][2]}</p>
+                <div className={classes.photoGallery}>
+                    <ul>
+                        <div>
+                            <li><img src={dataImages[0]} alt=''></img></li>
+                            <li><img src={dataImages[1]} alt=''></img></li>
+                            <li><img src={dataImages[2]} alt=''></img></li>
+                        </div>
+                        <div>
+                            <li><img src={dataImages[3]} alt=''></img></li>
+                            <li><img src={dataImages[4]} alt=''></img></li>
+                            <li><img src={dataImages[5]} alt=''></img></li>
+                        </div>
+                    </ul>
+                </div>
+                <p>{dataDaysDesc[data.day][3]}</p>
             </div>
-            <div className={classes.photoGallery}>
-                <ul>
-                    <div>
-                        <li><img src={dataImages[0]} alt=''></img></li>
-                        <li><img src={dataImages[1]} alt=''></img></li>
-                        <li><img src={dataImages[2]} alt=''></img></li>
-                    </div>
-                    <div>
-                        <li><img src={dataImages[3]} alt=''></img></li>
-                        <li><img src={dataImages[4]} alt=''></img></li>
-                        <li><img src={dataImages[5]} alt=''></img></li>
-                    </div>
-                </ul>
+            <div className={classes.fullDesc}>
+                <p>{dataDaysDesc[data.day][4]}</p>
             </div>
             <div>
                 <p>ФОТО СЛАЙДЕР</p>

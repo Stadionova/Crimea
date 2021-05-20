@@ -90,18 +90,26 @@
 }
 
 ul {
-    padding-left: 25px;
+    padding-left: 0;
 }
 
 ul div {
     display: flex;
 }
 
-li {
+li:nth-child(1),
+li:nth-child(2) {
     list-style-type: none;
     width: 445px;
     height: 325px;
     margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+li:nth-child(3) {
+    list-style-type: none;
+    width: 445px;
+    height: 325px;
     margin-bottom: 20px;
 }
 
