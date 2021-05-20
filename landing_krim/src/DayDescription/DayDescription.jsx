@@ -19,9 +19,8 @@ function DayDescription(props) {
             </div>
             <div className={classes.fullDesc}>
                 <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][0]}</p>
+                <img className={classes.tourist} src={tourists} alt='tourist'></img>
                 <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][1]}</p>
-                <img src={tourists} alt='tourists'></img>
-                <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][2]}</p>
                 <div className={classes.photoGallery}>
                     <ul>
                         <div>
@@ -36,6 +35,7 @@ function DayDescription(props) {
                         </div>
                     </ul>
                 </div>
+                <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][2]}</p>
                 <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][3]}</p>
             </div>
             <div className={classes.fullDesc}>

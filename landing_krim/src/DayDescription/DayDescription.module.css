@@ -123,3 +123,10 @@ h5 {
     font-style: italic;
     font-size: 18pt;
 }
+
+.tourist {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+}
