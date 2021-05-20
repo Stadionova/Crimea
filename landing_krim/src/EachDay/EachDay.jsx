@@ -20,6 +20,20 @@ import day1DescImage4 from './photos/day1/day1_4.JPG';
 import day1DescImage5 from './photos/day1/day1_5.JPG';
 import day1DescImage6 from './photos/day1/day1_6.JPG';
 
+import day2DescImage1 from './photos/day2/day2_1.JPG';
+import day2DescImage2 from './photos/day2/day2_2.JPG';
+import day2DescImage3 from './photos/day2/day2_3.JPG';
+import day2DescImage4 from './photos/day2/day2_4.JPG';
+import day2DescImage5 from './photos/day2/day2_5.JPG';
+import day2DescImage6 from './photos/day2/day2_6.JPG';
+
+import day3DescImage1 from './photos/day3/day3_1.JPG';
+import day3DescImage2 from './photos/day3/day3_2.JPG';
+import day3DescImage3 from './photos/day3/day3_3.JPG';
+import day3DescImage4 from './photos/day3/day3_4.JPG';
+import day3DescImage5 from './photos/day3/day3_5.JPG';
+import day3DescImage6 from './photos/day3/day3_6.JPG';
+
 const backImages = {
     '1': image1,
     '2': image2,
@@ -36,8 +50,8 @@ const backImages = {
 
 const dayDescImages = {
     '1': [day1DescImage1, day1DescImage2, day1DescImage3, day1DescImage4, day1DescImage5, day1DescImage6],
-    '2': day1DescImage2,
-    '3': day1DescImage3,
+    '2': [day2DescImage1, day2DescImage2, day2DescImage3, day2DescImage4, day2DescImage5, day2DescImage6],
+    '3': [day3DescImage1, day3DescImage2, day3DescImage3, day3DescImage4, day3DescImage5, day3DescImage6],
     '4': day1DescImage4,
     '5': day1DescImage5,
     '6': day1DescImage6
