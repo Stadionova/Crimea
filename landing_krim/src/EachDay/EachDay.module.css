@@ -53,8 +53,8 @@
 }
 
 .eachDay:hover .hoverLayer {
-    background: rgba(0, 0, 0, 0.9);
-    opacity: 0.45;
+    background: rgba(31, 25, 112, 0.342);
+    opacity: 0.65;
 }
 
 .eachDay:hover {
