@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './DayDescription.module.css';
 import Navigation from '../Navigation/Navigation';
 import dataDaysDesc from '../dataDaysDesc';
+import tourists from './icon.png';
 
 function DayDescription(props) {
     const data = props && props.location && props.location;
@@ -14,11 +15,12 @@ function DayDescription(props) {
                 <div className={classes.hoverLayer}></div>
             </div>
             <div className={classes.shortDesc}>
-                <p>{data.desc}</p>
+                <h5>{data.desc}</h5>
             </div>
             <div className={classes.fullDesc}>
                 <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][0]}</p>
                 <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][1]}</p>
+                <img src={tourists} alt='tourists'></img>
                 <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][2]}</p>
                 <div className={classes.photoGallery}>
                     <ul>
