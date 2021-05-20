@@ -75,3 +75,29 @@
     font-size: 25pt;
     padding: 25px;
 }
+
+.photoGallery p {
+    font-size: 40pt;
+}
+
+ul {
+    padding-left: 25px;
+} 
+
+ul div {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    width: 445px;
+    height: 325px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
