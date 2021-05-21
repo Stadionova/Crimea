@@ -130,3 +130,12 @@ h5 {
     margin: 0 auto;
     display: block;
 }
+
+.eachDay p {
+    position: relative;
+    top: 550px;
+    z-index: 111111;
+    color: white;
+    font-size: 40pt;
+    margin: 0;
+}
