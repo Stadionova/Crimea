@@ -7,6 +7,14 @@ import EachDay from './EachDay/EachDay';
 import React from "react";
 import DayDescription from './DayDescription/DayDescription';
 
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) {
+    document.querySelector('[class*=navigation]').style.boxShadow = 'var(--shd-scrl,0 0 5px rgba(0,0,0,.5))';
+  } else {
+    document.querySelector('[class*=navigation]').style.boxShadow = 'none';
+  }
+});
+
 function App() {
   return (
     <div className={classes.app}>
