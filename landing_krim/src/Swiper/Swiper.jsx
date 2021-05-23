@@ -40,12 +40,6 @@ export default function SwiperSlider(props) {
                 <SwiperSlide className={classes.slider}>
                     <img src={props.sliderPhotos[5]} alt=''></img>
                 </SwiperSlide>
-                <SwiperSlide className={classes.slider}>
-                    <img src={props.sliderPhotos[6]} alt=''></img>
-                </SwiperSlide>
-                <SwiperSlide className={classes.slider}>
-                    <img src={props.sliderPhotos[7]} alt=''></img>
-                </SwiperSlide>
             </Swiper>
         </>
     )
