@@ -3,10 +3,12 @@ import classes from './DayDescription.module.css';
 import Navigation from '../Navigation/Navigation';
 import dataDaysDesc from '../dataDaysDesc';
 import tourists from './icon.png';
+import SwiperSlider from '../Swiper/Swiper';
 
-function DayDescription(props) {
+const DayDescription = (props) => {
     const data = props && props.location && props.location;
     const dataImages = data && data.imagesDesc;
+    const dataImagesSlider = data && data.sliderPhotos;
     return (
         <div className={classes.description}>
             <Navigation changeColor='black' />
@@ -42,9 +44,7 @@ function DayDescription(props) {
             <div className={classes.fullDesc}>
                 <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][4]}</p>
             </div>
-            <div>
-                <p>ФОТО СЛАЙДЕР</p>
-            </div>
+            <SwiperSlider sliderPhotos={dataImagesSlider} />
         </div>
     )
 }

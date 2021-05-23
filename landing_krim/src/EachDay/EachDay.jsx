@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './EachDay.module.css';
 import { NavLink } from "react-router-dom";
+
 import image1 from './day1.jpg';
 import image2 from './day2.jpg';
 import image3 from './day3.jpg';
@@ -118,6 +119,20 @@ const dayDescImages = {
     '11': [day11DescImage1, day11DescImage2, day11DescImage3, day11DescImage4, day11DescImage5, day11DescImage6]
 }
 
+const swiperSliderPhotos = {
+    '1': [day1DescImage1, day1DescImage2, day1DescImage3, day1DescImage4, day1DescImage5, day1DescImage6],
+    '2': [day2DescImage1, day2DescImage2, day2DescImage3, day2DescImage4, day2DescImage5, day2DescImage6],
+    '3': [day3DescImage1, day3DescImage2, day3DescImage3, day3DescImage4, day3DescImage5, day3DescImage6],
+    '4': [day4DescImage1, day4DescImage2, day4DescImage3, day4DescImage4, day4DescImage5, day4DescImage6],
+    '5': [day5DescImage1, day5DescImage2, day5DescImage3, day5DescImage4, day5DescImage5, day5DescImage6],
+    '6': [day6DescImage1, day6DescImage2, day6DescImage3, day6DescImage4, day6DescImage5, day6DescImage6],
+    '7': [day7DescImage1, day7DescImage2, day7DescImage3, day7DescImage4, day7DescImage5, day7DescImage6],
+    '8': [day8DescImage1, day8DescImage2, day8DescImage3, day8DescImage4, day8DescImage5, day8DescImage6],
+    '9': [day9DescImage1, day9DescImage2, day9DescImage3, day9DescImage4, day9DescImage5, day9DescImage6],
+    '10': [day10DescImage1, day10DescImage2, day10DescImage3, day10DescImage4, day10DescImage5, day10DescImage6],
+    '11': [day11DescImage1, day11DescImage2, day11DescImage3, day11DescImage4, day11DescImage5, day11DescImage6]
+}
+
 const EachDay = (props) => {
     return (
         <div className={classes.eachDay}>
@@ -128,7 +143,8 @@ const EachDay = (props) => {
                     img: backImages[props.day],
                     day: props.day,
                     addHideText: props.addHideText,
-                    imagesDesc: dayDescImages[props.day]
+                    imagesDesc: dayDescImages[props.day],
+                    sliderPhotos: swiperSliderPhotos[props.day]
                 }}>
                 <img src={backImages[props.day]} alt=''></img>
                 <div className={classes.backImage}>
