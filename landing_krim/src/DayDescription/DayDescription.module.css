@@ -85,12 +85,18 @@
     padding: 25px;
 }
 
+.photoGallery {
+    width: 95%;
+    margin: 0 auto;
+}
+
 .photoGallery p {
     font-size: 40pt;
 }
 
 ul {
     padding-left: 0;
+    margin-bottom: 0;
 }
 
 ul div {
@@ -122,6 +128,9 @@ li img {
 h5 {
     font-style: italic;
     font-size: 18pt;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
 .tourist {
@@ -129,6 +138,7 @@ h5 {
     height: 30px;
     margin: 0 auto;
     display: block;
+    padding-top: 20px;
 }
 
 .eachDay p {
@@ -138,4 +148,14 @@ h5 {
     color: white;
     font-size: 40pt;
     margin: 0;
+}
+
+.fullDesc p {
+    margin: 0 auto;
+    width: 95%;
+    padding-top: 20px;
+}
+
+.fullDesc {
+    margin-bottom: 20px;
 }
