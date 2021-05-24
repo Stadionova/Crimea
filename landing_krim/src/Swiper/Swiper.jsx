@@ -33,22 +33,22 @@ export default function SwiperSlider(props) {
                 className={classes.mySwiper}
             >
                 <SwiperSlide className={classes.slider}>
-                    <img src={props.sliderPhotos[0]} alt=''></img>
+                    <img src={props && props.sliderPhotos && props.sliderPhotos[0]} alt=''></img>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={props.sliderPhotos[1]} alt=''></img>
+                    <img src={props && props.sliderPhotos && props.sliderPhotos[1]} alt=''></img>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={props.sliderPhotos[2]} alt=''></img>
+                    <img src={props && props.sliderPhotos && props.sliderPhotos[2]} alt=''></img>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={props.sliderPhotos[3]} alt=''></img>
+                    <img src={props && props.sliderPhotos && props.sliderPhotos[3]} alt=''></img>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={props.sliderPhotos[4]} alt=''></img>
+                    <img src={props && props.sliderPhotos && props.sliderPhotos[4]} alt=''></img>
                 </SwiperSlide>
                 <SwiperSlide className={classes.slider}>
-                    <img src={props.sliderPhotos[5]} alt=''></img>
+                    <img src={props && props.sliderPhotos && props.sliderPhotos[5]} alt=''></img>
                 </SwiperSlide>
             </Swiper>
         </>

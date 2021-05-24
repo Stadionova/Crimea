@@ -45,6 +45,12 @@ const DayDescription = (props) => {
                 </div>
                 <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][4]}</p>
             </div>
+            <button
+                onClick={() => {
+                    // window.location = `/dayDesc/${data.day + 1}`;
+                    window.location = '/main';
+                }}
+            >Следующий день</button>
         </div>
     )
 }
