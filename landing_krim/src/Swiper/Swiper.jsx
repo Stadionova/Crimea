@@ -13,15 +13,25 @@ import SwiperCore, {
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 export default function SwiperSlider(props) {
-    console.log('props ', props.sliderPhotos);
     return (
         <>
-            <Swiper spaceBetween={30} centeredSlides={true} autoplay={{
-                "delay": 2500,
-                "disableOnInteraction": false
-            }} pagination={{
-                "clickable": true
-            }} navigation={true} className={classes.mySwiper}>
+            <Swiper
+                spaceBetween={30}
+                centeredSlides={true}
+                autoplay={{
+                    "delay": 2500,
+                    "disableOnInteraction": false
+                }}
+                pagination={{
+                    "clickable": true
+                }}
+                navigation={true}
+                slidesPerView={1}
+                loop={true}
+                loopPreventsSlide={false}
+                speed={800}
+                className={classes.mySwiper}
+            >
                 <SwiperSlide className={classes.slider}>
                     <img src={props.sliderPhotos[0]} alt=''></img>
                 </SwiperSlide>
