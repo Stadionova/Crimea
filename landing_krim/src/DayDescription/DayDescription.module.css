@@ -60,7 +60,6 @@
 
 .hoverLayer {
     width: 100%;
-    height: 100%;
     position: absolute;
     z-index: 0;
     top: 0;
@@ -109,7 +108,6 @@ li:nth-child(2) {
     width: 445px;
     height: 325px;
     margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 li:nth-child(3) {
@@ -121,8 +119,8 @@ li:nth-child(3) {
 
 li img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
+    height: 100%;
 }
 
 h5 {
@@ -131,6 +129,7 @@ h5 {
     width: 95%;
     margin: 0 auto;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .tourist {
@@ -153,9 +152,13 @@ h5 {
 .fullDesc p {
     margin: 0 auto;
     width: 95%;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .fullDesc {
+    margin-bottom: 20px;
+}
+
+.swiper-container {
     margin-bottom: 20px;
 }
