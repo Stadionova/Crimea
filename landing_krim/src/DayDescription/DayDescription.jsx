@@ -139,20 +139,7 @@ const swiperSliderPhotos = {
 }
 
 class DayDescription extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            day: +window.location.pathname[window.location.pathname.length - 1],
-            nextDay: +window.location.pathname[window.location.pathname.length - 1] + 1
-        }
-    }
     onclick() {
-        this.setState({
-            day: this.state.nextDay,
-            nextDay: this.state.nextDay + 1
-        });
-        const nextDayProps = +this.props.location.day + 1;
-        this.props.location.day = +nextDayProps;
         this.render(this.props);
     }
     render() {
@@ -197,6 +184,21 @@ class DayDescription extends React.Component {
                 </div>
                 <NavLink
                     to={{
+                        pathname: `/dayDesc/${+this.props.location.day - 1}`,
+                        desc: this.props.location.desc,
+                        day: +this.props.location.day - 1,
+                        addHideText: this.props.location.addHideText
+                    }}>
+                    {
+                        this.props.location.day >= 2
+                            ? <button
+                                className={classes.buttonPrev}
+                                onClick={() => this.onclick()}>Предыдущий день</button>
+                            : ''
+                    }
+                </NavLink>
+                <NavLink
+                    to={{
                         pathname: `/dayDesc/${+this.props.location.day + 1}`,
                         desc: this.props.location.desc,
                         day: +this.props.location.day + 1,
@@ -204,10 +206,11 @@ class DayDescription extends React.Component {
                     }}>
                     {
                         this.props.location.day <= 10
-                            ? <button onClick={(e) => this.onclick(e)}>Следующий день</button>
+                            ? <button
+                                className={classes.buttonNext}
+                                onClick={() => this.onclick()}>Следующий день</button>
                             : ''
                     }
-
                 </NavLink>
             </div>
         );
