@@ -202,7 +202,12 @@ class DayDescription extends React.Component {
                         day: +this.props.location.day + 1,
                         addHideText: this.props.location.addHideText
                     }}>
-                    <button onClick={(e) => this.onclick(e)}>Следующий день</button>
+                    {
+                        this.props.location.day <= 10
+                            ? <button onClick={(e) => this.onclick(e)}>Следующий день</button>
+                            : ''
+                    }
+
                 </NavLink>
             </div>
         );
