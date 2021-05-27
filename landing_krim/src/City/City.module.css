@@ -1,0 +1,216 @@
+.description {
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.fullDesc,
+.shortDesc {
+    color: black;
+    font-size: 18pt;
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.shortDesc {
+    padding: 10px 25px 0 25px;
+}
+
+.fullDesc {
+    padding: 0 25px 0 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.fullDescPar {
+    padding: 0 25px 0 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.eachDay {
+    text-decoration: none;
+    position: relative;
+    opacity: 0.9;
+    border-color: black;
+}
+
+.eachDay a {
+    color: white;
+}
+
+.eachDay img {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.addText {
+    display: none;
+    position: absolute;
+    color: white !important;
+    font-size: 20pt !important;
+    font-weight: 400;
+    width: 600px !important;
+    top: 240px;
+    left: 0;
+    display: block;
+    z-index: 1;
+}
+
+.hoverLayer {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0.45;
+}
+
+.backImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20pt;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+.backImage a {
+    font-size: 25pt;
+    padding: 25px;
+}
+
+.photoGallery {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.photoGallery p {
+    font-size: 40pt;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+ul div {
+    display: flex;
+}
+
+li:nth-child(1),
+li:nth-child(2) {
+    list-style-type: none;
+    width: 445px;
+    height: 325px;
+    margin-right: 20px;
+}
+
+li:nth-child(3) {
+    list-style-type: none;
+    width: 445px;
+    height: 325px;
+    margin-bottom: 20px;
+}
+
+li img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+h5 {
+    font-style: italic;
+    font-size: 18pt;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tourist {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+}
+
+.eachDay p {
+    position: relative;
+    top: 550px;
+    z-index: 111111;
+    color: white;
+    font-size: 40pt;
+    margin: 0;
+}
+
+.fullDesc p {
+    margin: 0 auto;
+    width: 95%;
+    padding-top: 10px;
+}
+
+.fullDesc {
+    margin-bottom: 20px;
+}
+
+.swiper-container {
+    margin-bottom: 20px;
+}
+
+.buttonNext,
+.buttonPrev {
+    color: #232323;
+    background: transparent;
+    border: 1px solid #232323;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    padding: 17px 34px 17px 39px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.buttonNext:before,
+.buttonPrev:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: 0.25s ease;
+    transform: translate(0, 0);
+}
+
+.buttonNext:hover:before,
+.buttonPrev:hover:before {
+    transform: translate(4px, 4px);
+}
+
+.buttonPrev {
+    margin-right: 20px;
+}
+
+.buttonPrev:before {
+    background: darksalmon;
+}
+
+.buttonNext:before {
+    background: goldenrod;
+}

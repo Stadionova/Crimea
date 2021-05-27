@@ -8,7 +8,9 @@ class EachCity extends React.Component {
             <div className={classes.description}>
                 <NavLink
                     to={{
-                        pathname: '/city/' + this.props.cityNum
+                        pathname: '/city/' + this.props.cityNum,
+                        desc: this.props.cityDesc,
+                        bigPhoto: this.props.img
                     }}>
                     <div className={classes.citiesWrapper}>
                         <div className={classes.cities}>
