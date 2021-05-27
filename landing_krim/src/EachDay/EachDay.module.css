@@ -4,7 +4,8 @@
     text-decoration: none;
     position: relative;
     width: 100%;
-    border: 2px solid transparent;
+    border: 1px solid black;
+    background-color: burlywood;
 }
 
 .eachDay a {
@@ -26,13 +27,9 @@
     font-size: 20pt !important;
     font-weight: 400;
     width: 600px !important;
-    top: 130px;
+    top: 160px;
     left: 0;
     padding: 160px 25px 0 25px !important;
-}
-
-.eachDay img:hover {
-    opacity: 0.75;
 }
 
 .eachDay:hover .addText {
@@ -59,14 +56,14 @@
     background: rgba(31, 25, 112, 0.342);
     opacity: 0.65;
     transition-duration: 0.3s;
-    /* transition-timing-function: linear; */
+    background-color: burlywood;
 }
 
 .eachDay:hover {
     opacity: 0.9;
     border-color: black;
     transition-duration: 0.3s;
-    /* transition-timing-function: linear; */
+    background-color: burlywood;
 }
 
 .backImage {
