@@ -25,6 +25,15 @@
 
 .fullDesc {
     padding: 0 25px 0 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.fullDescPar {
+    padding: 0 25px 0 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .eachDay {
@@ -85,7 +94,7 @@
 }
 
 .photoGallery {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
 

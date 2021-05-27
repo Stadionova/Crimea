@@ -164,8 +164,10 @@ class DayDescription extends React.Component {
                 </div>
                 <SwiperSlider sliderPhotos={dataImagesSlider} />
                 <div className={classes.fullDesc}>
-                    <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][2]}</p>
-                    <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][3]}</p>
+                    <div className={classes.fullDescPar}>
+                        <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][2]}</p>
+                        <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][3]}</p>
+                    </div>
                     <div className={classes.photoGallery}>
                         <ul>
                             <div>
