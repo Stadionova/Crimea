@@ -7,6 +7,7 @@ import EachDay from './EachDay/EachDay';
 import React from "react";
 import DayDescription from './DayDescription/DayDescription';
 import ByCities from './ByCities/ByCities';
+import EachCity from './EachCity/EachCity';
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
@@ -27,6 +28,7 @@ const App = () => {
       <Route path='/day' component={EachDay} />
       <Route path='/dayDesc' component={DayDescription} />
       <Route path='/cities' component={ByCities} />
+      <Route path='/city' component={EachCity} />
     </div>
   );
 }

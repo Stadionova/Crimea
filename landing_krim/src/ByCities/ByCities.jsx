@@ -1,4 +1,5 @@
 import React from 'react';
+import EachCity from '../EachCity/EachCity';
 import Navigation from '../Navigation/Navigation';
 import classes from './ByCities.module.css';
 import city1 from './city1.JPG';
@@ -14,18 +15,9 @@ class ByCities extends React.Component {
             <div className={classes.description}>
                 <Navigation changeColor='black' />
                 <div className={classes.citiesWrapper}>
-                    <div className={classes.cities}>
-                        <p>БАХЧИСАРАЙ</p>
-                        <img src={city1} alt=''></img>
-                    </div>
-                    <div className={classes.cities}>
-                        <p>СЕВАСТОПОЛЬ</p>
-                        <img src={city2} alt=''></img>
-                    </div>
-                    <div className={classes.cities}>
-                        <p>СИМФЕРОПОЛЬ</p>
-                        <img src={city3} alt=''></img>
-                    </div>
+                    <EachCity city={'БАХЧИСАРАЙ'} img={city1} cityNum={1} />
+                    <EachCity city={'СЕВАСТОПОЛЬ'} img={city2} cityNum={2} />
+                    <EachCity city={'СИМФЕРОПОЛЬ'} img={city3} cityNum={3} />
                 </div>
             </div>
         );

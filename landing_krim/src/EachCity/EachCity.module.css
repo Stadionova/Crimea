@@ -1,0 +1,43 @@
+.citiesWrapper {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.description .cities {
+    width: 100%;
+    height: 650px !important;
+    border: 1px solid black;
+    background-color: burlywood;
+    margin-right: 20px;
+    position: relative;
+}
+
+.cities img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background: rgba(31, 25, 112, 0.342);
+    opacity: 0.65;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.cities img:hover {
+    opacity: 0.30;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.cities p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20pt;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-top: 10px;
+    z-index: 1;
+    color: white;
+}
