@@ -5,17 +5,17 @@ import dataDaysDesc from '../dataDaysDesc';
 import tourists from './icon.png';
 import SwiperSlider from '../Swiper/Swiper';
 
-import image1 from './day1.jpg';
-import image2 from './day2.jpg';
-import image3 from './day3.jpg';
-import image4 from './day4.jpg';
-import image5 from './day5.jpg';
-import image6 from './day6.jpg';
-import image7 from './day7.jpg';
-import image8 from './day8.jpg';
-import image9 from './day9.jpg';
-import image10 from './day10.jpg';
-import image11 from './day11.jpg';
+import image1 from '../EachDay/day1.jpg';
+import image2 from '../EachDay/day2.jpg';
+import image3 from '../EachDay/day3.jpg';
+import image4 from '../EachDay/day4.jpg';
+import image5 from '../EachDay/day5.jpg';
+import image6 from '../EachDay/day6.jpg';
+import image7 from '../EachDay/day7.jpg';
+import image8 from '../EachDay/day8.jpg';
+import image9 from '../EachDay/day9.jpg';
+import image10 from '../EachDay/day10.jpg';
+import image11 from '../EachDay/day11.jpg';
 
 import day1DescImage1 from './photos/day1/day1_1.JPG';
 import day1DescImage2 from './photos/day1/day1_2.JPG';
