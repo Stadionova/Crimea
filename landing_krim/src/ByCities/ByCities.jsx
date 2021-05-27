@@ -10,9 +10,11 @@ class ByCities extends React.Component {
         return (
             <div className={classes.description}>
                 <Navigation changeColor='black' />
-                <div className={classes.cities}>БАХЧИСАРАЙ</div>
-                <div className={classes.cities}>СЕВАСТОПОЛЬ</div>
-                <div className={classes.cities}>СИМФЕРОПОЛЬ</div>
+                <div className={classes.citiesWrapper}>
+                    <div className={classes.cities}>БАХЧИСАРАЙ</div>
+                    <div className={classes.cities}>СЕВАСТОПОЛЬ</div>
+                    <div className={classes.cities}>СИМФЕРОПОЛЬ</div>
+                </div>
             </div>
         );
     }

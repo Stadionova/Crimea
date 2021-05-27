@@ -38,6 +38,7 @@ const Trip = () => {
             <div className={classes.day}>
                 <EachDay day={11} addHideText={hideTripText[11]} />
             </div>
+            <p className={classes.footer}>© 2021 Мама и Дети, Крым</p>
         </div>
     )
 }

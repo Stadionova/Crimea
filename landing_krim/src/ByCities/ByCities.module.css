@@ -1,11 +1,12 @@
-.description {
-    width: 600px;
+.citiesWrapper {
+    margin: 0 auto;
+    width: 100%;
     height: 800px;
     display: flex;
 }
 
 .description .cities {
-    width: 200px;
+    width: 300px;
     height: 500px;
     border: 1px solid black;
     background-color: burlywood;

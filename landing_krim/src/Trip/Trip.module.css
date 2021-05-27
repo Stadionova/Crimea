@@ -12,10 +12,10 @@
 
 .trip p {
     color: black;
-    font-size: 20pt;
-    width: 80%;
+    font-size: 25pt;
+    width: 70%;
     text-align: left;
-    padding: 75px 25px 0 25px;
+    padding: 65px 25px 0 25px;
 }
 
 .tripHeader {
@@ -38,4 +38,13 @@
     margin: 20px 0 0 150px;
     margin-left: 25px;
     text-decoration: none;
+}
+
+.footer {
+    display: block !important;
+    width: 100% !important;
+    font-size: 12pt !important;
+    text-align: center !important;
+    padding-top: 10px !important;
+    margin-bottom: 0 !important;
 }
