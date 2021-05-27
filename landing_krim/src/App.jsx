@@ -6,12 +6,15 @@ import Equipment from './Equipment/Equipment';
 import EachDay from './EachDay/EachDay';
 import React from "react";
 import DayDescription from './DayDescription/DayDescription';
+import ByCities from './ByCities/ByCities';
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
-    document.querySelector('[class*=navigation]').style.boxShadow = 'var(--shd-scrl,0 0 5px rgba(0,0,0,.5))';
+    document.querySelector('[class*=navigation]')
+      && (document.querySelector('[class*=navigation]').style.boxShadow = 'var(--shd-scrl,0 0 5px rgba(0,0,0,.5))');
   } else {
-    document.querySelector('[class*=navigation]').style.boxShadow = 'none';
+    document.querySelector('[class*=navigation]')
+      && (document.querySelector('[class*=navigation]').style.boxShadow = 'none');
   }
 });
 
@@ -23,7 +26,7 @@ const App = () => {
       <Route path='/equipment' component={Equipment} />
       <Route path='/day' component={EachDay} />
       <Route path='/dayDesc' component={DayDescription} />
-      <Route path='/cities' component={DayDescription} />
+      <Route path='/cities' component={ByCities} />
     </div>
   );
 }
