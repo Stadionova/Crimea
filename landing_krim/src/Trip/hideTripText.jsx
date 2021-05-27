@@ -1,4 +1,4 @@
-const additionalBeforeHoverHideText = {
+const hideTripText = {
   1: 'Старт в Судаке! Пройден: 21км',
   2: 'Новый друг! Пройдено: 18.7км',
   3: 'Ой туманы мои растуманы! Пройдено: 23.5км',
@@ -12,4 +12,4 @@ const additionalBeforeHoverHideText = {
   11: 'Одиннадцатый день! Пройдено: 28.5км'
 }
 
-export default additionalBeforeHoverHideText;
+export default hideTripText;

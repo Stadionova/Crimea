@@ -12,7 +12,7 @@ import SwiperCore, {
 
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
-export default function SwiperSlider(props) {
+const SwiperSlider = (props) => {
     return (
         <>
             <Swiper
@@ -54,3 +54,5 @@ export default function SwiperSlider(props) {
         </>
     )
 }
+
+export default SwiperSlider;

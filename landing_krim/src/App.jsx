@@ -15,7 +15,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
-function App() {
+const App = () => {
   return (
     <div className={classes.app}>
       <Route path='/main' component={MainPage} />
