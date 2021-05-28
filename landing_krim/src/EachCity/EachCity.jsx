@@ -16,6 +16,7 @@ class EachCity extends React.Component {
                         <div className={classes.cities}>
                             <p>{this.props.city}</p>
                             <img src={this.props.img} alt=''></img>
+                            <p className={classes.addText}>{this.props.hideText}</p>
                         </div>
                     </div>
                 </NavLink>
