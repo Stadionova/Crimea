@@ -214,3 +214,17 @@ h5 {
 .buttonNext:before {
     background: goldenrod;
 }
+
+.cityDayDesc {
+    display: flex;
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 400px;
+}
+
+.cityDayDesc img {
+    width: 500px;
+    height: 400px;
+}

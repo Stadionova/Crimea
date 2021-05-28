@@ -18,8 +18,14 @@ class City extends React.Component {
                 <div className={classes.eachDay}>
                     <img src={data.bigPhoto} alt=''></img>
                 </div>
-                <p>{data.desc[0]}</p>
-                <p>{data.desc[1]}</p>
+                <div className={classes.cityDayDesc}>
+                    <img src={data.bigPhoto} alt=''></img>
+                    <p>{data.desc[0]}</p>
+                </div>
+                <div className={classes.cityDayDesc}>
+                    <img src={data.bigPhoto} alt=''></img>
+                    <p>{data.desc[1]}</p>
+                </div>
                 {/* <SwiperSlider sliderPhotos={dataImagesSlider} />
                 <div className={classes.fullDesc}>
                     <div className={classes.fullDescPar}>
