@@ -10,7 +10,8 @@ class EachCity extends React.Component {
                     to={{
                         pathname: '/city/' + this.props.cityNum,
                         desc: this.props.cityDesc,
-                        bigPhoto: this.props.img
+                        bigPhoto: this.props.img,
+                        cityNum: this.props.cityNum
                     }}>
                     <div className={classes.citiesWrapper}>
                         <div className={classes.cities}>
