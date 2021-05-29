@@ -41,6 +41,7 @@
     position: relative;
     opacity: 0.9;
     border-color: black;
+    margin-bottom: 50px;
 }
 
 .eachDay a {
