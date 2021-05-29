@@ -3,9 +3,15 @@ import classes from './City.module.css';
 import Navigation from '../Navigation/Navigation';
 import city1_1 from './city1_1.JPG';
 import city1_2 from './city1_2.JPG';
+import city2_1 from './city2_1.JPG';
+import city2_2 from './city2_2.JPG';
+import city3_1 from './city3_1.JPG';
+import city3_2 from './city3_2.JPG';
 
 const smallImages = {
-    '1': [city1_1, city1_2]
+    '1': [city1_1, city1_2],
+    '2': [city2_1, city2_2],
+    '3': [city3_1, city3_2]
 }
 
 class City extends React.Component {

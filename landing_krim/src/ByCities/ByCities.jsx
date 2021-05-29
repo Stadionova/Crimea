@@ -9,9 +9,6 @@ import dataCityDesc from './dataCityDesc';
 import hideCityText from './hideCityText';
 
 class ByCities extends React.Component {
-    onclick() {
-        this.render(this.props);
-    }
     render() {
         return (
             <div className={classes.description}>
