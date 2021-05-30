@@ -23,7 +23,7 @@
 }
 
 .addText {
-    /* display: none; */
+    display: none;
     position: absolute;
     color: white !important;
     font-size: 20pt !important;
