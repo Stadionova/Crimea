@@ -22,10 +22,15 @@
     color: white;
     cursor: pointer;
     text-decoration: none;
+    text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black !important;
+    transition: all 1s !important;
+}
+
+.headerLinks a:hover {
+    text-shadow: 1px 1px 0 goldenrod, 1px -1px 0 goldenrod, -1px 1px 0 goldenrod, -1px -1px 0 goldenrod !important;
 }
 
 [data*="black"] a {
-    color: black;
     text-shadow: none;
 }
 
@@ -34,6 +39,7 @@
     z-index: 2;
     background-color: white;
     height: 90px;
+    text-shadow: none;
 }
 
 .inst,

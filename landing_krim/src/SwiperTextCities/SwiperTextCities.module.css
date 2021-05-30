@@ -38,6 +38,6 @@
     display: flex;
 }
 
-[class*="active"] {
+.swiper-container [class*="active"] {
     text-decoration: none !important;
 }
