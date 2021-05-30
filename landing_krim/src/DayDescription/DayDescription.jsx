@@ -158,15 +158,23 @@ class DayDescription extends React.Component {
                     <h5>{dayDescriptions[this.props.location.day]}</h5>
                 </div>
                 <div className={classes.fullDesc}>
-                    <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][0]}</p>
+                    <p className={classes.text1}>
+                        {dataDaysDesc[data.day] && dataDaysDesc[data.day][0]}
+                    </p>
                     <img className={classes.tourist} src={tourists} alt='tourist'></img>
-                    <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][1]}</p>
+                    <p className={classes.text2}>
+                        {dataDaysDesc[data.day] && dataDaysDesc[data.day][1]}
+                    </p>
                 </div>
                 <SwiperSlider sliderPhotos={dataImagesSlider} />
                 <div className={classes.fullDesc}>
                     <div className={classes.fullDescPar}>
-                        <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][2]}</p>
-                        <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][3]}</p>
+                        <p className={classes.text3}>
+                            {dataDaysDesc[data.day] && dataDaysDesc[data.day][2]}
+                        </p>
+                        <p className={classes.text4}>
+                            {dataDaysDesc[data.day] && dataDaysDesc[data.day][3]}
+                        </p>
                     </div>
                     <div className={classes.photoGallery}>
                         <ul>
@@ -182,7 +190,9 @@ class DayDescription extends React.Component {
                             </div>
                         </ul>
                     </div>
-                    <p>{dataDaysDesc[data.day] && dataDaysDesc[data.day][4]}</p>
+                    <p className={classes.text5}>
+                        {dataDaysDesc[data.day] && dataDaysDesc[data.day][4]}
+                    </p>
                 </div>
                 <NavLink
                     to={{
