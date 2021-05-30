@@ -7,17 +7,17 @@ import SwiperSlider from '../Swiper/Swiper';
 import { NavLink } from 'react-router-dom';
 import dayDescriptions from '../dayDescriptions';
 
-import image1 from './bigPhotos/day1.jpg';
-import image2 from './bigPhotos/day2.jpg';
-import image3 from './bigPhotos/day3.jpg';
-import image4 from './bigPhotos/day4.jpg';
-import image5 from './bigPhotos/day5.jpg';
-import image6 from './bigPhotos/day6.jpg';
-import image7 from './bigPhotos/day7.jpg';
-import image8 from './bigPhotos/day8.jpg';
-import image9 from './bigPhotos/day9.jpg';
-import image10 from './bigPhotos/day10.jpg';
-import image11 from './bigPhotos/day11.jpg';
+import image1 from '../bigPhotos/day1.jpg';
+import image2 from '../bigPhotos/day2.jpg';
+import image3 from '../bigPhotos/day3.jpg';
+import image4 from '../bigPhotos/day4.jpg';
+import image5 from '../bigPhotos/day5.jpg';
+import image6 from '../bigPhotos/day6.jpg';
+import image7 from '../bigPhotos/day7.jpg';
+import image8 from '../bigPhotos/day8.jpg';
+import image9 from '../bigPhotos/day9.jpg';
+import image10 from '../bigPhotos/day10.jpg';
+import image11 from '../bigPhotos/day11.jpg';
 
 import day1BigImage1 from './photos/day1/big/day1_1.JPG';
 import day1BigImage2 from './photos/day1/big/day1_2.JPG';

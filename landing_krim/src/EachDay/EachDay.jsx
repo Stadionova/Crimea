@@ -2,17 +2,17 @@ import React from 'react';
 import classes from './EachDay.module.css';
 import { NavLink } from "react-router-dom";
 
-import image1 from './smallPhotos/day1.jpg';
-import image2 from './smallPhotos/day2.jpg';
-import image3 from './smallPhotos/day3.jpg';
-import image4 from './smallPhotos/day4.jpg';
-import image5 from './smallPhotos/day5.jpg';
-import image6 from './smallPhotos/day6.jpg';
-import image7 from './smallPhotos/day7.jpg';
-import image8 from './smallPhotos/day8.jpg';
-import image9 from './smallPhotos/day9.jpg';
-import image10 from './smallPhotos/day10.jpg';
-import image11 from './smallPhotos/day11.jpg';
+import image1 from '../bigPhotos/day1.jpg';
+import image2 from '../bigPhotos/day2.jpg';
+import image3 from '../bigPhotos/day3.jpg';
+import image4 from '../bigPhotos/day4.jpg';
+import image5 from '../bigPhotos/day5.jpg';
+import image6 from '../bigPhotos/day6.jpg';
+import image7 from '../bigPhotos/day7.jpg';
+import image8 from '../bigPhotos/day8.jpg';
+import image9 from '../bigPhotos/day9.jpg';
+import image10 from '../bigPhotos/day10.jpg';
+import image11 from '../bigPhotos/day11.jpg';
 
 const backImages = {
     '1': image1,
