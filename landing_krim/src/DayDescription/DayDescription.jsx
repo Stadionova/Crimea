@@ -227,7 +227,7 @@ class DayDescription extends React.Component {
             <div className={classes.description}>
                 <Navigation changeColor='black' />
                 <div className={classes.eachDay}>
-                    <p>ДЕНЬ{data.day}</p>
+                    <p>ДЕНЬ {data.day}</p>
                     <img src={backImages[this.props.location.day]} alt=''></img>
                     <div className={classes.hoverLayer}></div>
                 </div>
