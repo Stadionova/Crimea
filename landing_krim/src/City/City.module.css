@@ -57,8 +57,8 @@
     opacity: 1;
 }
 
-.addText {
-    display: none;
+.detailedCityPlace {
+    /* display: none; */
     position: absolute;
     color: white !important;
     font-size: 20pt !important;
@@ -250,4 +250,12 @@ h5 {
     margin-bottom: 50px;
     padding: 0 200px 0 200px;
     text-align: justify;
+}
+
+.swiper-slide-active {
+    margin-left: 50px;
+}
+
+.swiper-slide-active p {
+    margin-right: 100px;
 }

@@ -4,6 +4,7 @@ import classes from './EachCity.module.css';
 
 class EachCity extends React.Component {
     render() {
+        const currentClass = this.props.hideTextClass;
         return (
             <div className={classes.description}>
                 <NavLink
@@ -15,9 +16,9 @@ class EachCity extends React.Component {
                     }}>
                     <div className={classes.citiesWrapper}>
                         <div className={classes.cities}>
-                            <p>{this.props.city}</p>
+                            <p className={classes.cityName}>{this.props.city}</p>
                             <img src={this.props.img} alt=''></img>
-                            <p className={classes.addText}>{this.props.hideText}</p>
+                            <p className={classes[currentClass]}>{this.props.hideText}</p>
                         </div>
                     </div>
                 </NavLink>

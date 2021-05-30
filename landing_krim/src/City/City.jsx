@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './City.module.css';
 import Navigation from '../Navigation/Navigation';
 import citiesSummaryData from './citiesSummaryData';
+import citiesPlaceInDetail from './citiesPlaceInDetail';
 
 import city1_1 from './city1/city1_1.JPG';
 import city1_2 from './city1/city1_2.JPG';
@@ -34,6 +35,7 @@ import city3_8 from './city3/city3_8.JPG';
 import city3_9 from './city3/city3_9.JPG';
 
 import SwiperTextCities from '../SwiperTextCities/SwiperTextCities';
+import EachCity from '../EachCity/EachCity';
 
 const smallImages = {
     '1': [city1_1, city1_2, city1_3, city1_4, city1_5, city1_6, city1_7, city1_8, city1_9],
@@ -56,7 +58,28 @@ class City extends React.Component {
                 <p className={classes.summaryData}>
                     {citiesSummaryData[data.cityNum]}
                 </p>
-                <SwiperTextCities sliderPhotos={smallImages[data.cityNum]} />
+                <EachCity
+                    city={'БАХЧИКЭМП'}
+                    img={smallImages[data.cityNum][8]}
+                    cityNum={1}
+                    hideText={citiesPlaceInDetail[1][0]}
+                    hideTextClass={'detailedCityPlace'}
+                />
+                <EachCity
+                    city={'ПЕЩЕРЫ_1'}
+                    img={smallImages[data.cityNum][5]}
+                    cityNum={2}
+                    hideText={citiesPlaceInDetail[1][1]}
+                    hideTextClass={'detailedCityPlace'}
+                />
+                <EachCity
+                    city={'ПЕЩЕРЫ_2'}
+                    img={smallImages[data.cityNum][0]}
+                    cityNum={3}
+                    hideText={citiesPlaceInDetail[1][2]}
+                    hideTextClass={'detailedCityPlace'}
+                />
+                {/* <SwiperTextCities sliderPhotos={smallImages[data.cityNum]} /> */}
                 <p className={classes.footer}>© 2021 Мама и Дети, Крым</p>
             </div>
         );
