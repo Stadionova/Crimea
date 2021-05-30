@@ -6,6 +6,8 @@
     width: 100%;
     border: 1px solid black;
     background-color: burlywood;
+    color: #304663fc;
+    line-height: 1.7;
 }
 
 .eachDay a {

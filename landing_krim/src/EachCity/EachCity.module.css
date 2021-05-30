@@ -13,6 +13,11 @@
     position: relative;
 }
 
+.description {
+    color: #304663fc;
+    line-height: 1.7;
+}
+
 .cities img {
     position: relative;
     height: 100%;
@@ -59,4 +64,4 @@
 .cities:hover .addText {
     display: block;
     z-index: 1;
-} 
+}
