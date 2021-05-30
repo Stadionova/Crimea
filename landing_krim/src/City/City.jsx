@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './City.module.css';
 import Navigation from '../Navigation/Navigation';
+import citiesSummaryData from './citiesSummaryData';
 
 import city1_1 from './city1/city1_1.JPG';
 import city1_2 from './city1/city1_2.JPG';
@@ -52,6 +53,9 @@ class City extends React.Component {
                 <div className={classes.eachDay}>
                     <img src={data.bigPhoto} alt=''></img>
                 </div>
+                <p className={classes.summaryData}>
+                    {citiesSummaryData[data.cityNum]}
+                </p>
                 <SwiperTextCities sliderPhotos={smallImages[data.cityNum]} />
                 <p className={classes.footer}>© 2021 Мама и Дети, Крым</p>
             </div>

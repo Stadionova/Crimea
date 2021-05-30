@@ -243,3 +243,9 @@ h5 {
     padding-top: 10px !important;
     margin-bottom: 0 !important;
 }
+
+.summaryData {
+    margin-bottom: 50px;
+    padding: 0 200px 0 200px;
+    text-align: justify;
+}
