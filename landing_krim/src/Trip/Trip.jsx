@@ -9,7 +9,7 @@ const Trip = () => {
     return (
         <div className={classes.trip}>
             <Navigation changeColor='black' />
-            <div>
+            <div className={classes.summaryText}>
                 <p>Наш поход длился 11 дней.
                 <br />Шли мы от Судака до Бахчисарая по Крымской тропе.
                 <br />Затем сошли с тропы и провели по 2 дня в каждом из городов: Бахчисарай, Севастополь и Симферополь.

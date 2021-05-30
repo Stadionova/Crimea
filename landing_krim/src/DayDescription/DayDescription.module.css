@@ -7,7 +7,7 @@
     overflow: hidden;
     min-height: 100vh;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     color: #304663fc;
     line-height: 1.7;
 }
@@ -30,6 +30,7 @@
     margin-top: 25px;
     margin-bottom: 40px;
     width: 80%;
+    font-size: 16pt;
 }
 
 .fullDescPar {
@@ -173,7 +174,7 @@ h5 {
 
 .text1,
 .text4 {
-    border-top: solid 5px palevioletred;
+    border-top: solid 5px goldenrod;
     border-top-style: double;
 }
 
