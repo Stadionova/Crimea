@@ -1,7 +1,6 @@
 {
   "name": "landing_krim",
   "homepage": "http://<stadionova>.github.io/<Crimea>",
-  "deploy": "npm run build&&gh-pages -d build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +15,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
