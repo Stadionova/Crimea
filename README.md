@@ -1,1 +1,3 @@
-# Crimea
+---
+permalink: /index.html
+---
